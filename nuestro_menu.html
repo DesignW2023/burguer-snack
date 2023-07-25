@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro Menú</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/nuestro_menu.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <!--Parte responsiva-->
+            <img class="logo-1" src="images/logo.svg" alt="logo">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+    
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="index.html">INICIO</a></li>
+                        <li><a href="nuestro_menu.html">NUESTRO MENÚ</a></li>
+                        <li><a href="nuestra_calidad.html">NUESTRA CALIDAD</a></li>
+                    </ul>
+                </div>
+                <img class="logo-2" src="images/logo.svg">
+                <div class="menu-2">
+                    <ul>
+                        <li><a href="#">Horario</a></li>
+                    </ul>
+                    <div class="socials">
+                        <a href="#">
+                            <div class="social">
+                                <img src="images/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="images/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="images/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+   
+    <!--bloque para hacer el carrito de compras-->
+    <div>
+        <ul>
+            <li class="submenu">
+                <img id="img-carrito" src="images/car.svg" alt="car">
+                <div id="carrito">
+                    <table id="lista-carrito">
+                        <thead>
+                            <tr>
+                                <th>Imagen</th>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                    <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </div>
+
+
+    <!--Slider-->
+    <div class="header-content container">
+        <div class="swiper mySwiper-1">
+            <div class="swiper-wrapper">
+                <div class="swipe-slide">
+                    <div class="slider">
+                        <div class="slider-txt">
+                            <h1>Nuestro menú</h1>
+                            <p>
+                                Escoge tu plato favorito del menú y haz tu pedido vía telefónica o WhatsApp y PedidosYa.
+                            </p>
+                            <div class="botones">
+                                <a href="#" class="btn-1">Comprar</a>
+                               
+                            </div>
+                        </div>
+                        <div class="slider-img">
+                            <img src="images/burguer1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    </header>
+
+  
+    <!--Sección de productos (Contenido principal)-->
+    <main class="products container">
+    
+        <h2>Productos</h2>
+    
+        <div class="box-container" id="lista-1">
+    
+            <div class="box">
+                <img src="images/burguer1.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/burguer2.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/burguer3.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/food3.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/food4.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="5">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/food5.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="6">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/food6.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="7">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/food7.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="8">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/food8.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="9">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/food9.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="10">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/platillo9.jpg" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="11">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/con_cocacola.png" alt="">
+                <div class="products-txt">
+                    <h3>Elisyum</h3>
+                    <p>Calidad Premium</p>
+                    <p class="precio">$200</p>
+                    <a href="#" class="agregar-carrito btn-3" data-id="12">
+                        Agregar al Carrito
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+       
+    </main>
+
+    <!--Sección de ofertas-->
+    <section class="oferts container">
+    
+        <div class="ofert-1 b1">
+            <div class="ofert-txt">
+                <h3>PEQUEÑA</h3>
+                <p>
+                    Tamaño incluido en el mix<br>
+                    12 oz.
+    
+                </p>
+    
+            </div>
+            <div class="ofert-img">
+                <img src="images/cocacolaVasoriginal.png" alt="">
+            </div>
+        </div>
+    
+        <div class="ofert-1 b2">
+            <div class="ofert-txt">
+                <h3>MEDIANA</h3>
+                <p>
+                    16 OZ. + $0.55
+                </p>
+    
+    
+            </div>
+            <div class="ofert-img">
+                <img src="images/cocacolaVasoriginal.png " alt="">
+            </div>
+        </div>
+    
+        <div class="ofert-1 b3">
+            <div class="ofert-txt">
+                <h3>Jugos</h3>
+                <p>
+                    Regular + $1.30 <br>
+                    Grande + $2.00 <br>
+                    Super + $2.50 <br>
+                    <br><br>
+                    Sabores <br>
+                    Mora<br>
+                    Naranja<br>
+                    Limonada
+                </p>
+                <a href="#">Leer mas</a>
+            </div>
+            <div class="ofert-img">
+                <img src="images/s2.png" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <!--Testimonios-->
+    
+    <section class="testimonial container">
+        <span>Testimoniales</span>
+        <h2>Que opinan nuestros clientes</h2>
+        <div class="testimonial-content">
+    
+            <div class="testimonial-1">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, maxime aspernatur, deleniti
+                    dolorem autem cupiditate minima facere a animi minus officia et dolor at voluptate recusandae non natus
+                    optio cum?
+                </p>
+                <img src="images/starts.png" alt="">
+                <h4>Lorem ipsum</h4>
+            </div>
+            <div class="testimonial-1">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, maxime aspernatur, deleniti
+                    dolorem
+                    autem cupiditate minima facere a animi minus officia et dolor at voluptate recusandae non natus optio
+                    cum?
+                </p>
+                <img src="images/starts.png" alt="">
+                <h4>Lorem ipsum</h4>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Sección footer-->
+    <footer>
+    
+        <div class="container-footer-all">
+            <div class="container-body">
+                <!--Columna 1-->
+                <div class="column1">
+                    <img class="logo-2" src="images/logo.svg">
+                    <h2>Horarios de Atención</h2>
+                    <p>
+                        Lunes a Viernes de 11am - 10pm
+                    </p>
+                    <p>
+                        Sábado y Domingo de 11am - 9pm
+                    </p>
+    
+                </div>
+    
+                <!--Columna 2-->
+                <div class="column2">
+                    <h2>Redes Sociales</h2>
+                    <div class="row">
+                        <img src="icon/facebook.png" alt="">
+                        <label>Síguenos en Facebook</label>
+                    </div>
+    
+                    <div class="row">
+                        <img src="icon/twitter.png" alt="">
+                        <label>Síguenos en Twitter</label>
+                    </div>
+    
+                    <div class="row">
+                        <img src="icon/instagram.png" alt="">
+                        <label>Síguenos en Instagram</label>
+                    </div>
+    
+                </div>
+    
+                <!--Columna 3-->
+                <div class="column3">
+                    <h2>Información de Contacto</h2>
+                    <div class="row2">
+                        <img src="icon/house.png" alt="">
+                        <label class="alinear">
+                            San Antonio de Pichincha Calle: Museo Solar N6-09 y Calle M
+    
+                        </label>
+                    </div>
+                    <div class="row2">
+                        <img src="icon/smartphone.png" alt="">
+                        <label>
+                            +593 987851999
+                        </label>
+                    </div>
+                    <div class="row2">
+                        <img src="icon/contact.png" alt="">
+                        <label>
+                            patricio100153@gmail.com
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-footer">
+            <div class="footer">
+                <div class="copyright">
+                    &#169 2023 Todos los Derechos reservados | <a href="#">Alfonso Patricio</a>
+                </div>
+                <div class="information">
+                    <a href="#"> Información Compañía </a> | <a href="#"> Privacidad y Políticas </a> | <a href="#">
+                        Términos y Condiciones</a>
+                </div>
+            </div>
+        </div>
+    </footer>    
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
